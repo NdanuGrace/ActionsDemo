@@ -23,7 +23,6 @@ jobs:
           const headers = {
             'Authorization': `Bearer ${NOTION_API_TOKEN}`
            
-            'Notion-Version': '2021-05-13',
           };
         
           const data = {
