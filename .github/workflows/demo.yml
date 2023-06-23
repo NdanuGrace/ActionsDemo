@@ -28,7 +28,6 @@ jobs:
         
           const data = {
             'properties': {
-              'title': {
                 'title': [
                   {
                     'text': {
@@ -42,7 +41,7 @@ jobs:
         
           const response = await fetch(`https://api.notion.com/v1/pages/${NOTION_PAGE_ID}`, {
             method: 'PATCH',
-            headers,
+            headers: headers,
             body: JSON.stringify(data),
           });
         
