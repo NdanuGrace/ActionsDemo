@@ -21,7 +21,7 @@ jobs:
           const NOTION_PAGE_ID = '27ecc59850a749f9846cd1466d701d66';
           async function updateNotionPage(content) {
           const headers = {
-            'Authorization': `Bearer ${NOTION_API_TOKEN}`,
+            'Authorization': `Bearer ${NOTION_API_TOKEN}`
             'Content-Type': 'application/json',
             'Notion-Version': '2021-05-13',
           };
