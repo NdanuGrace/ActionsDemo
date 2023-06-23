@@ -22,7 +22,7 @@ jobs:
           async function updateNotionPage(content) {
           const headers = {
             'Authorization': `Bearer ${NOTION_API_TOKEN}`
-            'Content-Type': 'application/json',
+           
             'Notion-Version': '2021-05-13',
           };
         
